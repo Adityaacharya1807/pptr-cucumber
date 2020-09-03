@@ -1,0 +1,25 @@
+{
+  "name": "ppt-cucum",
+  "version": "1.0.0",
+  "description": "Puppeteer with Cucumber js",
+  "main": "index.js",
+  "scripts": {
+    "test-data": "cucumber-js -f json:cucumber_report.json",
+    "generate:report":"node report.js"
+  },
+  "keywords": [
+    "puppeteer",
+    "cucumber",
+    "gherkin",
+    "javascript"
+  ],
+  "author": "Aditya Acharya",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cucumber": "^6.0.5",
+    "cucumber-html-reporter": "^5.2.0",
+    "prettier": "^2.1.1",
+    "puppeteer": "^5.2.1"
+  }
+}
